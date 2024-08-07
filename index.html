@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crece Contable 3 C.A</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./images/logo.png" alt="Logo Crece Contable">
+            </div>
+            <h1>Crece Contable 3</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Sobre Nosotros</a></li>
+                    <li><a href="#courses">Cursos</a></li>
+                    <li><a href="#testimonials">Testimonios</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>¡Bienvenido a tu futuro en Contabilidad!</h2>
+            <p>Ofrecemos cursos online accesibles y de alta calidad para todos los niveles. Empieza hoy y mejora tus habilidades en contabilidad.</p>
+            <a href="#courses" class="btn">Ver Cursos</a>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos profesionales con amplia experiencia en el campo de la contabilidad y la educación online. Nuestro objetivo es ofrecerte formación de calidad desde la comodidad de tu hogar.</p>
+    </section>
+
+    <section id="courses" class="container">
+        <h2>Nuestros Cursos</h2>
+        <div class="course">
+            <h3>Contabilidad Básica para Emprendedores</h3>
+            <p><strong>Público objetivo:</strong> Emprendedores sin experiencia previa en contabilidad.</p>
+            <p><strong>Descripción:</strong> Brindar una comprensión básica de los principios contables y enseñar a registrar transacciones comerciales comunes. Incluye la creación y comprensión de estados financieros básicos.</p>
+            <p><strong>Temas:</strong> El ciclo contable, la ecuación contable, las cuentas de activo, pasivo y patrimonio neto, los ingresos y gastos, y los estados financieros básicos (balance general, estado de resultados, estado de flujo de efectivo).</p>
+            <p><strong>Precio del curso:</strong> $30</p>
+            <button onclick="enroll('Contabilidad Básica para Emprendedores')">Inscribirse</button>
+        </div>
+
+        <div class="course">
+            <h3>Contabilidad Intermedia para Emprendedores</h3>
+            <p><strong>Público objetivo:</strong> Emprendedores con conocimientos básicos de contabilidad.</p>
+            <p><strong>Descripción:</strong> Profundizar en los principios contables y enseñar a utilizar la contabilidad para tomar decisiones informadas, así como analizar el desempeño financiero.</p>
+            <p><strong>Temas:</strong> Contabilidad de inventarios, depreciación y amortización, acreedores y deudores, análisis de ratios financieros, y costos y presupuestos.</p>
+            <p><strong>Precio del curso:</strong> $29.18</p>
+            <button onclick="enroll('Contabilidad Intermedia para Emprendedores')">Inscribirse</button>
+        </div>
+
+        <div class="course">
+            <h3>Contabilidad Avanzada para Emprendedores</h3>
+            <p><strong>Público objetivo:</strong> Emprendedores con conocimientos intermedios de contabilidad.</p>
+            <p><strong>Descripción:</strong> Brindar una comprensión avanzada de los principios contables, aplicar la contabilidad a situaciones comerciales complejas y preparar para la auditoría financiera.</p>
+            <p><strong>Temas:</strong> Contabilidad de sociedades, consolidación de estados financieros, análisis de inversiones, impuestos sobre la renta y Normas Internacionales de Información Financiera (NIIF).</p>
+            <p><strong>Precio del curso:</strong> $40.71</p>
+            <button onclick="enroll('Contabilidad Avanzada para Emprendedores')">Inscribirse</button>
+        </div>
+
+        <div class="course">
+            <h3>Gestión Financiera para Emprendedores</h3>
+            <p><strong>Público objetivo:</strong> Emprendedores con conocimientos intermedios de contabilidad.</p>
+            <p><strong>Descripción:</strong> Enseñar cómo tomar decisiones financieras sólidas, crear y administrar presupuestos, y obtener financiamiento.</p>
+            <p><strong>Temas:</strong> Planificación financiera, presupuestación y pronóstico, toma de decisiones de inversión, financiamiento y obtención de capital, y administración del capital de trabajo.</p>
+            <p><strong>Precio del curso:</strong> $33.46</p>
+            <button onclick="enroll('Gestión Financiera para Emprendedores')">Inscribirse</button>
+        </div>
+
+        <div class="course">
+            <h3>Curso Avanzado de Análisis Financiero para Emprendedores</h3>
+            <p><strong>Público objetivo:</strong> Emprendedores con conocimientos avanzados de contabilidad y finanzas.</p>
+            <p><strong>Descripción:</strong> Proporcionar habilidades para analizar en profundidad el desempeño financiero del negocio y tomar decisiones estratégicas basadas en datos financieros.</p>
+            <p><strong>Temas:</strong> Análisis de ratios financieros avanzados, modelos de valoración de empresas, análisis de sensibilidad y análisis de escenarios, coste de capital y estructura de capital, y fusiones y adquisiciones.</p>
+            <p><strong>Precio del curso:</strong> $40.71</p>
+            <button onclick="enroll('Curso Avanzado de Análisis Financiero para Emprendedores')">Inscribirse</button>
+        </div>
+    </section>
+
+    <section id="testimonials" class="container">
+        <h2>Testimonios</h2>
+        <div class="testimonial">
+            <p>"Las clases online de contabilidad me ayudaron a avanzar en mi carrera profesional. Los instructores son muy capacitados y el material es excelente."</p>
+            <p><strong>Ana Pérez</strong></p>
+        </div>
+        <div class="testimonial">
+            <p>"Un gran recurso para aprender contabilidad desde casa. Los cursos son claros y bien estructurados."</p>
+            <p><strong>Juan López</strong></p>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Crece Contable 3 C.A</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
