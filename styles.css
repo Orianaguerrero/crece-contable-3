@@ -24,7 +24,7 @@ header .container {
 }
 
 header .logo img {
-    max-height: 60px; /* Ajusta la altura del logo */
+    max-height: 85px; /* Ajusta la altura del logo */
     width: auto;
     margin-right: 20px; /* Espacio entre el logo y el texto */
 }
